@@ -1,6 +1,7 @@
 import numpy as np
 from tensorflow.keras.utils import load_img, img_to_array
 from IPython.display import Image, display
+from tensorflow.keras.models import load_model
 
 # Define test image paths and labels
 test_images = [
